@@ -551,6 +551,40 @@ padding-top: 10px;
 
 
 
+
+
+.Video-gallery h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.Video-gallery {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Video-gallery a {
+  margin-bottom: 10px;
+}
+
+.Video-gallery img {
+  max-width: 300px;
+}
+
+.video-head{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
 @media screen and (max-width: 415px) {
   .table-img img{
     max-width: 150px;
